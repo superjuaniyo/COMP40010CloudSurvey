@@ -24,7 +24,7 @@
             // Create an admin account
             if (Membership.FindUsersByName("admin").Cast<MembershipUser>().FirstOrDefault() == null)
             {
-                Membership.CreateUser("admin", "Hola123!", "superjuaniyo@hotmail.com");
+                Membership.CreateUser("juan", "Hola123!", "superjuaniyo@hotmail.com");
             }
         }
     }
